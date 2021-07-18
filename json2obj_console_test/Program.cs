@@ -7,7 +7,9 @@ namespace json2obj_console_test
     {
         static void Main(string[] args)
         {
-            
+
+            Encode encode = new Encode();
+            Decode decode = new Decode();
         }
     }
 }
