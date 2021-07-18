@@ -17,10 +17,14 @@ namespace json2obj_lib
     public class JSNull : JSGeneric { }
     public class JSObject : JSGeneric
     {
+        public JSObject() => Value = new List<JSGeneric>();
+        public JSObject(List<JSGeneric> lst) => Value = lst;
         public List<JSGeneric> Value;
     }
     public class JSArray : JSGeneric
     {
+        public JSArray() => Value = new List<JSGenericNK>();
+        public JSArray(List<JSGenericNK> lst) => Value = lst;
         public List<JSGenericNK> Value;
     }
     public class JSString : JSGeneric
@@ -50,10 +54,14 @@ namespace json2obj_lib
     public class JSNullNK : JSGenericNK { }
     public class JSObjectNK : JSGenericNK
     {
+        public JSObjectNK() => Value = new List<JSGeneric>();
+        public JSObjectNK(List<JSGeneric> lst) => Value = lst; 
         public List<JSGeneric> Value;
     }
     public class JSArrayNK : JSGenericNK
     {
+        public JSArrayNK() => Value = new List<JSGenericNK>();
+        public JSArrayNK(List<JSGenericNK> lst) => Value = lst;
         public List<JSGenericNK> Value;
     }
     public class JSStringNK : JSGenericNK
