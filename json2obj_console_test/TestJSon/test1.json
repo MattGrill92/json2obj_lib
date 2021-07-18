@@ -1,0 +1,9 @@
+﻿{
+  "intero": 1,
+  "oggetto": {
+    "oggetto2": {
+      "intero2": 2
+    },
+    "intero3": 3
+  }
+}

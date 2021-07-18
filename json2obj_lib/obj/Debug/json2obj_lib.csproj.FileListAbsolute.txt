@@ -1,0 +1,6 @@
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\bin\Debug\json2obj_lib.dll
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\bin\Debug\json2obj_lib.pdb
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.csproj.AssemblyReference.cache
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.csproj.CoreCompileInputs.cache
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.dll
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.pdb

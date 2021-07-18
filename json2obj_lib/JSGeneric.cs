@@ -20,7 +20,7 @@ namespace json2obj_lib
     }
     public class JSArray : JSGeneric
     {
-        public List<JSGenericNK>
+        public List<JSGenericNK> Value;
     }
     public class JSString : JSGeneric
     {
@@ -34,11 +34,11 @@ namespace json2obj_lib
     {
         public double Value { get; set; }
     }
-
     public class JSBool : JSGeneric
     {
         public bool Value { get; set; }
     }
+    public class JSNull : JSGeneric { }
 
     #endregion
 
@@ -53,7 +53,7 @@ namespace json2obj_lib
     }
     public class JSArrayNK : JSGenericNK
     {
-        public List<JSGenericNK>
+        public List<JSGenericNK> Value;
     }
     public class JSStringNK : JSGenericNK
     {
@@ -71,5 +71,7 @@ namespace json2obj_lib
     {
         public bool Value { get; set; }
     }
+    public class JSNullNK : JSGenericNK { }
+
     #endregion
 }
