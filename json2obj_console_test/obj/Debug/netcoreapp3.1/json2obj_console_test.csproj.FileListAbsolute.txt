@@ -1,0 +1,16 @@
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\bin\Debug\netcoreapp3.1\json2obj_console_test.exe
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\bin\Debug\netcoreapp3.1\json2obj_console_test.deps.json
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\bin\Debug\netcoreapp3.1\json2obj_console_test.runtimeconfig.json
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\bin\Debug\netcoreapp3.1\json2obj_console_test.runtimeconfig.dev.json
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\bin\Debug\netcoreapp3.1\json2obj_console_test.dll
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\bin\Debug\netcoreapp3.1\json2obj_console_test.pdb
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\bin\Debug\netcoreapp3.1\json2obj_lib.dll
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\bin\Debug\netcoreapp3.1\json2obj_lib.pdb
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\obj\Debug\netcoreapp3.1\json2obj_console_test.csproj.AssemblyReference.cache
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\obj\Debug\netcoreapp3.1\json2obj_console_test.AssemblyInfoInputs.cache
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\obj\Debug\netcoreapp3.1\json2obj_console_test.AssemblyInfo.cs
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\obj\Debug\netcoreapp3.1\json2obj_console_test.csproj.CoreCompileInputs.cache
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\obj\Debug\netcoreapp3.1\json2obj_console_test.csproj.CopyComplete
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\obj\Debug\netcoreapp3.1\json2obj_console_test.dll
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\obj\Debug\netcoreapp3.1\json2obj_console_test.pdb
+C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_console_test\obj\Debug\netcoreapp3.1\json2obj_console_test.genruntimeconfig.cache
