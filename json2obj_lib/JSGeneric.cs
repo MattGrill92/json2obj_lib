@@ -14,6 +14,7 @@ namespace json2obj_lib
         public JSGeneric() { }
         public string Key { get; set; }
     }
+    public class JSNull : JSGeneric { }
     public class JSObject : JSGeneric
     {
         public List<JSGeneric> Value;
@@ -38,7 +39,6 @@ namespace json2obj_lib
     {
         public bool Value { get; set; }
     }
-    public class JSNull : JSGeneric { }
 
     #endregion
 
@@ -47,6 +47,7 @@ namespace json2obj_lib
     {
         public JSGenericNK() { }
     }
+    public class JSNullNK : JSGenericNK { }
     public class JSObjectNK : JSGenericNK
     {
         public List<JSGeneric> Value;
@@ -71,7 +72,6 @@ namespace json2obj_lib
     {
         public bool Value { get; set; }
     }
-    public class JSNullNK : JSGenericNK { }
 
     #endregion
 }
