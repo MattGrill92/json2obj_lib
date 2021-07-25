@@ -9,6 +9,7 @@ namespace json2obj_console_test
         {
 
             Encode encode = new Encode();
+            encode.start();
             Decode decode = new Decode();
         }
     }
