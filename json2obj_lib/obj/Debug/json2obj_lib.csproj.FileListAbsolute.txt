@@ -4,3 +4,9 @@ C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\obj\Debug\json2obj_li
 C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.csproj.CoreCompileInputs.cache
 C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.dll
 C:\Users\bello\source\repos\_git\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.pdb
+C:\Users\Francesco\source\repos\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.csproj.CoreCompileInputs.cache
+C:\Users\Francesco\source\repos\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.dll
+C:\Users\Francesco\source\repos\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.pdb
+C:\Users\Francesco\source\repos\json2obj_lib\json2obj_lib\bin\Debug\json2obj_lib.dll
+C:\Users\Francesco\source\repos\json2obj_lib\json2obj_lib\bin\Debug\json2obj_lib.pdb
+C:\Users\Francesco\source\repos\json2obj_lib\json2obj_lib\obj\Debug\json2obj_lib.csprojAssemblyReference.cache

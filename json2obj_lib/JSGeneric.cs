@@ -9,19 +9,19 @@ namespace json2obj_lib
 
     #region DefaultGeneric
 
-    public abstract class JSGeneric//con la chiave
+    public abstract class JSGeneric : JSGenericNK//con la chiave
     {
         public string Key { get; set; }
         public JSGeneric() { }
     }
     public class JSNull : JSGeneric { }
-    public class JSObject : JSGeneric
+    public class JSObject : JSGeneric//obj key value
     {
         public List<JSGeneric> Value { get; set; }
         public JSObject() => Value = new List<JSGeneric>();
         public JSObject(List<JSGeneric> lst) => Value = lst;
     }
-    public class JSArray : JSGeneric
+    public class JSArray : JSGeneric//array key value
     {
         public List<JSGenericNK> Value { get; set; }
         public JSArray() => Value = new List<JSGenericNK>();
@@ -31,7 +31,7 @@ namespace json2obj_lib
     {
         public string Value { get; set; }
     }
-      public class JSDouble : JSGeneric
+    public class JSDouble : JSGeneric
     {
         public double Value { get; set; }
     }
@@ -54,19 +54,9 @@ namespace json2obj_lib
         public JSObjectNK() => Value = new List<JSGeneric>();
         public JSObjectNK(List<JSGeneric> lst) => Value = lst;
     }
-    public class JSArrayNK : JSGenericNK
-    {
-        public List<JSGenericNK> Value { get; set; }
-        public JSArrayNK() => Value = new List<JSGenericNK>();
-        public JSArrayNK(List<JSGenericNK> lst) => Value = lst;
-    }
     public class JSStringNK : JSGenericNK
     {
         public string Value { get; set; }
-    }
-    public class JSIntNK : JSGenericNK
-    {
-        public int Value { get; set; }
     }
     public class JSDoubleNK : JSGenericNK
     {
@@ -76,6 +66,15 @@ namespace json2obj_lib
     {
         public bool Value { get; set; }
     }
+    public class JSArrayNK : JSGenericNK//array solo key
+    {
+        public List<JSGenericNK> Value { get; set; }
+        public JSArrayNK() => Value = new List<JSGenericNK>();
+        public JSArrayNK(List<JSGenericNK> lst) => Value = lst;
 
+    }
     #endregion
-}
+
+
+		//fine namespace
+    }

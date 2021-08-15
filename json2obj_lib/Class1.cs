@@ -6,17 +6,23 @@ using System.Threading.Tasks;
 
 namespace json2obj_lib
 {
-    enum LibType
+    public enum enum_obj_array
     {
-        
-        startValue,
-        ObjectNK,
+        obj,
+        array,
+        str
     }
 
-    enum Status
-    {
-        
-        StartReadString,
-        StopReadString
+    public enum enum_key_value {
+        key_begin,
+        key_end,
+        value_begin,
+        value_end
     }
+
+    public enum enum_datatype { 
+        _string,
+        dunno
+    }
+
 }
