@@ -11,7 +11,7 @@
 					"Abbrev": "ISO 8879:1986",
 					"GlossDef": {
                         "para": "A meta-markup language, used to create markup languages such as DocBook.",
-						"GlossSeeAlso": ["XML" , {"as": 12,1} , true, null]
+						"GlossSeeAlso": ["XML" , {"as": 12.1} , true, null]
                     },
 					"GlossSee": "markup"
                 }

@@ -5,3 +5,4 @@ json2obj_console_test/bin/*
 json2obj_console_test/obj/*
 json2obj_console_test/debug/*
 /.vs/*
+json2obj_console_test/TestJSon/*
