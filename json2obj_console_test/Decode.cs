@@ -20,7 +20,7 @@ namespace json2obj_console_test
                         {
                             new JSNull()
                         }}
-                    } 
+                    }
                 }
             );
 
