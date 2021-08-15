@@ -57,16 +57,9 @@ namespace json2obj_console_test
             return res;
         }
 
-<<<<<<< HEAD
-        private string EncodeString(JSString obj, int depth = 0) => $"{new string('\t', depth)}\"" + obj.Key.Replace("\"", "\\\"") + "\": \"" + obj.Value.Replace("\"","\\\"") + "\"";
-        private string EncodeDouble(JSDouble obj, int depth = 0) => $"{new string('\t', depth)}\"" + obj.Key.Replace("\"", "\\\"") + "\": {obj.Value}";
-        private string EncodeBool(JSBool obj, int depth = 0) => $"{new string('\t', depth)}\"" + obj.Key.Replace("\"", "\\\"") + "\": {obj.Value.ToString().ToLower()}";
-=======
         private string EncodeString(JSString obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": \"" + obj.Value.Replace("\"","\\\"") + "\"";
-
         private string EncodeDouble(JSDouble obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": {obj.Value}";
         private string EncodeBool(JSBool obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": {obj.Value.ToString().ToLower()}";
->>>>>>> 8e80d73df1bc98a3adba9d9587844560864230a0
 
         //NK
         private string EncodeNullNK(JSNullNK obj, int depth) => $"{new string('\t', depth)}null";
