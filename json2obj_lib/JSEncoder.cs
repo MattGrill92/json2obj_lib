@@ -24,13 +24,13 @@ namespace json2obj_console_test
             return res;
         }
 
-        private string EncodeNull(JSNull obj, int depth) => $"{new string('\t', depth)}{obj.Key}: null";
+        private string EncodeNull(JSNull obj, int depth) => $"{new string('\t', depth)}" + obj.Key.Replace("\"","\\\"") + ": null";
 
         private string EncodeObject(JSObject obj, int depth = 0)
         {
             string res = string.Empty;
             res += new string('\t', depth);
-            res += $"\"{obj.Key}\": ";
+            res += "\"" + obj.Key.Replace("\"", "\\\"") + "\": ";
             res += "{\r\n";
             for (int i = 0; i < obj.Value.Count; i++)
             {
@@ -45,7 +45,7 @@ namespace json2obj_console_test
         {
             string res = string.Empty;
             res += new string('\t', depth);
-            res += $"\"{obj.Key}\": ";
+            res += "\"" + obj.Key.Replace("\"", "\\\"") + "\": ";
             res += "[\r\n";
             for (int i = 0; i < obj.Value.Count; i++)
             {
@@ -58,7 +58,6 @@ namespace json2obj_console_test
         }
 
         private string EncodeString(JSString obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": \"" + obj.Value.Replace("\"","\\\"") + "\"";
-
         private string EncodeDouble(JSDouble obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": {obj.Value}";
         private string EncodeBool(JSBool obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": {obj.Value.ToString().ToLower()}";
 
