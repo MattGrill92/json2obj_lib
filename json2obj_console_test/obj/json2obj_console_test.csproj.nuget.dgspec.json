@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_console_test\\json2obj_console_test.csproj": {}
+    "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_console_test\\json2obj_console_test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_console_test\\json2obj_console_test.csproj": {
+    "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_console_test\\json2obj_console_test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_console_test\\json2obj_console_test.csproj",
+        "projectUniqueName": "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_console_test\\json2obj_console_test.csproj",
         "projectName": "json2obj_console_test",
-        "projectPath": "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_console_test\\json2obj_console_test.csproj",
-        "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_console_test\\obj\\",
+        "projectPath": "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_console_test\\json2obj_console_test.csproj",
+        "packagesPath": "C:\\Users\\bello\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_console_test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\bello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -28,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj": {
-                "projectPath": "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj"
+              "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj": {
+                "projectPath": "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj"
               }
             }
           }
@@ -58,15 +64,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj": {
+    "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj",
+        "projectUniqueName": "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj",
         "projectName": "json2obj_lib",
-        "projectPath": "C:\\Users\\Francesco\\source\\repos\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj"
+        "projectPath": "C:\\Users\\bello\\source\\repos\\_git\\json2obj_lib\\json2obj_lib\\json2obj_lib.csproj"
       },
       "frameworks": {
         "net472": {}
