@@ -8,7 +8,7 @@ namespace json2obj_console_test
         static void Main(string[] args)
         {
 
-            Encode encode = new Encode();
+            EncodeDecodeTest encode = new EncodeDecodeTest();
             encode.start();
             //Decode decode = new Decode();
         }

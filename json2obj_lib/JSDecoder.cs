@@ -6,14 +6,25 @@ using System.Threading.Tasks;
 
 namespace json2obj_lib
 {
-    public class Decode2
+    public class JSDecoder
     {
-		public Decode2() { }
+		public JSDecoder() { }
 
 		public JsonString jsonString;
 
 		string read_string = "";
-		public object recursive_read_fn(enum_obj_array inside_enum_obj_array, enum_key_value expect_enum_key_value, 
+
+		public JSObjectNK Decode(string jsonString) 
+		{
+			this.jsonString = new JsonString(jsonString);
+			JSObjectNK jSObjectNK = (JSObjectNK)this.recursive_read_fn(enum_obj_array.obj, enum_key_value.value_begin, enum_datatype.dunno);
+			JSObject jSObject = (JSObject)jSObjectNK.Value[0];
+			//jSObject = (JSObject)jSObject.Value[0];
+			JSObjectNK jSObjectNK2 = new JSObjectNK();
+			jSObjectNK2.Value = jSObject.Value;
+			return jSObjectNK2;
+		}
+		private object recursive_read_fn(enum_obj_array inside_enum_obj_array, enum_key_value expect_enum_key_value, 
 			enum_datatype expected_enum_datatype)
 		{
 			JSObjectNK jSObjectNK = new JSObjectNK();
@@ -197,16 +208,18 @@ namespace json2obj_lib
 			switch (expect_enum_key_value)
 			{
 				case (enum_key_value.key_end):
-					if (read_string.Contains("\"") && jsonString.previousChar.Contains("\\"))
+					if (read_string.Contains("\"") && jsonString.previousChar.Contains("\\") ||
+						read_string.Contains("\\") && jsonString.previousChar.Contains("\\"))
 					{
-						temp_key.Replace("\\", "");
+						//temp_key.Replace("\\", "");
 					}
 					temp_key = temp_key + read_string;
 					return false;
 				case (enum_key_value.value_end):
-					if (read_string.Contains("\"") && jsonString.previousChar.Contains("\\"))
+					if (read_string.Contains("\"") && jsonString.previousChar.Contains("\\") ||
+						read_string.Contains("\\") && jsonString.previousChar.Contains("\\"))
 					{
-						temp_value.Replace("\\", "");
+						//temp_value.Replace("\\", "");
 					}
 					temp_value = temp_value + read_string;
 					return false;

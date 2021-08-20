@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using json2obj_lib;
 
-namespace json2obj_console_test
+namespace json2obj_lib
 {
     public class JSEncoder
     {
@@ -57,7 +56,9 @@ namespace json2obj_console_test
             return res;
         }
 
-        private string EncodeString(JSString obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": \"" + obj.Value.Replace("\"","\\\"") + "\"";
+        //private string EncodeString(JSString obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": \"" + obj.Value.Replace("\"","\\\"") + "\"";
+        private string EncodeString(JSString obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": \"" + obj.Value + "\"";
+        
         private string EncodeDouble(JSDouble obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": {obj.Value}";
         private string EncodeBool(JSBool obj, int depth = 0) => $"{new string('\t', depth)}\"{obj.Key}\": {obj.Value.ToString().ToLower()}";
 

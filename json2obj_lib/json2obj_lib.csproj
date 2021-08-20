@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Decode.cs" />
+    <Compile Include="EnumClass.cs" />
+    <Compile Include="JSDecoder.cs" />
     <Compile Include="JSEncoder.cs" />
     <Compile Include="JSGeneric.cs" />
     <Compile Include="JsonString.cs" />
